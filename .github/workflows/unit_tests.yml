@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ main ]
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -20,4 +20,4 @@ jobs:
         cache: 'npm'
       env:
         CI: true
-    - run: run test
+    - run: npm run test
