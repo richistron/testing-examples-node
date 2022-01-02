@@ -6,17 +6,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h4>Features</h4>
+        <ul>
+          <li>Feature 1 💀</li>
+          {/*<li>Feature 2 👾</li>*/}
+          {/*<li>Feature 3 👽</li>*/}
+          {/*<li>Feature 4 🤖</li>*/}
+          {/*<li>Feature 5 💩</li>*/}
+          {/*<li>Feature 6 👀</li>*/}
+        </ul>
       </header>
     </div>
   );
