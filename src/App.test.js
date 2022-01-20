@@ -20,11 +20,11 @@ test('Feature 2 👾', () => {
 // });
 
 
-// test('Feature 4 🤖', () => {
-//   render(<App />);
-//   const linkElement = screen.getByText(/Feature 4 🤖/i);
-//   expect(linkElement).toBeInTheDocument();
-// });
+test('Feature 4 🤘', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/Feature 4 🤘/i);
+  expect(linkElement).toBeInTheDocument();
+});
 
 
 // test('Feature 5 💩', () => {
