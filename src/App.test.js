@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('Feature 1 💀', () => {
+test('Feature 1 🤘', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Feature 1 💀/i);
+  const linkElement = screen.getByText(/Feature 1 🤘/i);
   expect(linkElement).toBeInTheDocument();
 });
 
