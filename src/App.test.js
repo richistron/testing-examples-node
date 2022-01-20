@@ -7,11 +7,11 @@ test('Feature 1 💀', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-// test('Feature 2 👾', () => {
-//   render(<App />);
-//   const linkElement = screen.getByText(/Feature 2 👾/i);
-//   expect(linkElement).toBeInTheDocument();
-// });
+test('Feature 2 👾', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/Feature 2 👾/i);
+  expect(linkElement).toBeInTheDocument();
+});
 
 // test('Feature 3 👽', () => {
 //   render(<App />);
